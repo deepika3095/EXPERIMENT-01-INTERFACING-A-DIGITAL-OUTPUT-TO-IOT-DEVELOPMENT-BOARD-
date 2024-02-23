@@ -1,8 +1,8 @@
-###  DATE: 
+###  DATE: 14.02.2024
 
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  NAME: Deepika R
+###  ROLL NO :212223230038
+###  DEPARTMENT: AI & DS
 
 
 
@@ -80,14 +80,26 @@ The main features of LPC2148 include the following.
 12. connect the stm nucleo board and click on run 
 ![image](https://user-images.githubusercontent.com/36288975/226189649-b5dff389-91df-4eca-b84a-1127c6562637.png)
 
-
-
-
-
-
 ## STM 32 CUBE PROGRAM :
+#include"stdio.h"
 
+#include"main.h"
 
+MX_GPIO_Init();
+
+while(1)
+
+{
+
+HAL_GPIO_WritePin(GPIO,GPIO_PIN_0,RESET);
+
+HAL_Delay(1000);
+
+HAL_GPIO_WritePin(GPIO,GPIO_PIN_0,SET);
+
+HAL_Delay(1000);
+
+}
 
 ## Output  :
  
