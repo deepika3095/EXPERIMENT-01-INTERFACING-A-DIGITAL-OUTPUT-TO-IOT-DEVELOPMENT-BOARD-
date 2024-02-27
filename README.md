@@ -102,6 +102,11 @@ HAL_Delay(1000);
 }
 
 ## Output  :
- 
+# LED ON
+![iot exp 1 led on](https://github.com/deepika3095/EXPERIMENT-01-INTERFACING-A-DIGITAL-OUTPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/151625159/58fcd2d4-228c-4690-bdff-59a6adc0a04d)
+
+# LED OFF
+![iot exp 1 led off](https://github.com/deepika3095/EXPERIMENT-01-INTERFACING-A-DIGITAL-OUTPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/151625159/4a5dc862-b5e8-482f-96c6-6c462056938d)
+
 ## Result :
 Interfacing a digital output with ARM microcontroller based IOT development is executed and the results are verified.
